@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPA DA APRENDIZAGEM</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header id="header">
+        <img id="logo" src="logo elefante.png" alt="Logo da empresa COPA DA APRENDIZAGEM"/>
+    </header>
+
+    <nav id="navbar">
+     <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="#noticias">Notícias</a></li>
+              <li><a href="#destaques">Destaques</a></li>
+              <li><a href="#eventos">Eventos</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="login.html" class="login-btn">Login</a></li>
+          </ul>
+          </nav>
+
+    <section id="boas-vindas">
+        <h1>Bem-vindo à COPA DA APRENDIZAGEM</h1>
+        <p>Onde o talento da juventude entra em campo para transformar o futuro.</p>
+        <p>Descubra como nossos aprendizes unem a paixão pelo esporte ao desenvolvimento profissional e social!!</p>
+    </section>
+
+    <section id="noticias">
+        <h1>Notícias rápidas</h1>
+        <h2>Não percam!</h2>
+        <div class="stories-news">
+            <div class="card-noticia">
+              <img src="noticia1.jpeg" alt="Ícone Lesão">
+              <div class="texto-noticia">
+                <h3>Hino</h3>
+                <p>Escrever.</p>
+              </div>
+            </div>
+            <div class="card-noticia">
+                <img src="noticia2.jpeg" alt="Ícone Gol">
+                <div class="texto-noticia">
+                  <h3>Bandeira</h3>
+                  <p>escrever.</p>
+                </div>
+            </div>
+            <div class="card-noticia">
+                <img src="noticia3.jpeg" alt="Ícone VAR">
+                <div class="texto-noticia">
+                  <h3>Sustentabilidade</h3>
+                  <p>escrever.</p>
+                </div>
+            </div>
+        </div>
+        <a href="noticias.html" class="botao-ver-tudo">Ver tudo</a>
+    </section>
+
+    <section id="destaques">
+        <h1>Destaques em vídeo</h1>
+        <h2>Aprendizagens do Dia!</h2>
+        <div class="grid-videos">
+            <div class="card-video">
+              <iframe width="100%" height="250" 
+              src="https://www.youtube.com/embed/MPEXEj9Abbw?si=lLEAKc8vIzUMOwWJ&amp;controls=0"
+               title="YouTube video player" 
+               frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+                
+              <div class="info-video">
+                <h3>Advertência</h3>
+                <span class="tempo-video">0:34</span>
+              </div>
+            </div>
+            <div class="card-video">
+                <iframe width="100%" height="250" 
+                src="https://www.youtube.com/embed/fdWidefcnU0?si=V_d3ANdHOoWNd_uP&amp;controls=0"
+                 title="YouTube video player" 
+                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <div class="info-video">
+                  <h3>Coletiva de Imprensa</h3>
+                  <span class="tempo-video">1:57</span>
+                </div>
+            </div>
+            <div class="card-video">
+                <iframe width="100%" height="250"
+                    src=""
+                    title=""
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <div class="info-video">
+                  <h3>titulo</h3>
+                  <span class="tempo-video">1:05</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="eventos">
+        <h1>Eventos</h1>
+        <h2>Próximos Jogos</h2>
+        <div class="stories-news">
+            <div class="card-noticia">
+              <img src="Campanha.png" alt="Ícone Lesão">
+              <div class="texto-noticia">
+                <h3>Circuito Eco-Aprendiz: Limpe Seu Parque</h3>
+                <p>Chegou a hora de unir atividade física, diversão e conscientização ambiental em um só lugar!</p>
+              </div>
+            </div>
+        </div>
+              <a href="eventos.html" class="botao-ver-tudo">Ver tudo</a>
+    </section>
+    
+    <script>
+        const jogos = {
+          hoje: [
+            {
+              timeA: "Palmeiras",
+              escudoA: "escudo.palmeiras.png",
+              timeB: "Flamengo",
+              escudoB: "escudo.flamengo.png",
+              horario: "21:30",
+              campeonato: "Brasileirão Série A",
+              link: "#"
+            },
+            {
+              timeA: "Vasco",
+              escudoA: "escudo.vasco.png",
+              timeB: "Botafogo",
+              escudoB: "escudo.botafogo.png",
+              horario: "19:00",
+              campeonato: "Copa do Brasil",
+              link: "#"
+            }
+          ],
+          amanha: [
+            {
+              timeA: "Corinthians",
+              escudoA: "escudo.corinthians.png",
+              timeB: "São Paulo",
+              escudoB: "escudo.saopaulo.png",
+              horario: "16:00",
+              campeonato: "Campeonato Paulista",
+              link: "#"
+            },
+            {
+              timeA: "Grêmio",
+              escudoA: "escudo.gremio.png",
+              timeB: "Internacional",
+              escudoB: "escudo.inter.png",
+              horario: "18:45",
+              campeonato: "Copa do Brasil",
+              link: "#"
+            }
+          ]
+        };
+
+        function filtrarJogos(dia) {
+    const lista = document.getElementById("lista-jogos");
+    const botoes = document.querySelectorAll(".filtro");
+
+    botoes.forEach(btn => btn.classList.remove("ativo"));
+    document.querySelector(`[onclick="filtrarJogos('${dia}')"]`).classList.add("ativo");
+
+    lista.innerHTML = "";
+
+    jogos[dia].forEach(jogo => {
+      const card = document.createElement("div");
+      card.className = "card-jogo";
+      card.innerHTML = `
+        <div class="linha-times">
+          <div class="time">
+            <img src="${jogo.escudoA}" alt="${jogo.timeA}" />
+            <span>${jogo.timeA}</span>
+          </div>
+          <span class="versus">x</span>
+          <div class="time">
+            <img src="${jogo.escudoB}" alt="${jogo.timeB}" />
+            <span>${jogo.timeB}</span>
+          </div>
+        </div>
+        <div class="info-jogo">
+          ${jogo.horario} • ${jogo.campeonato}
+        </div>
+        <a href="${jogo.link}" class="assistir" target="_blank">Assistir</a>
+      `;
+      lista.appendChild(card);
+    });
+  }
+
+  filtrarJogos('hoje');
+</script>
+
+<footer id="footer">
+    <img id="logo" src="logo elefante.png" alt=""/>
+    <div class="footer-contato">
+        <a href="mailto:contato@copadaaprendizagem.com">contato@copadaaprendizagem.com</a>
+    </div>
+    <div class="footer-redes">
+        <a href="https://www.instagram.com/s_gabrielx?igsh=dHR6aXc3ZGduanU2&utm_source=qr"_blank">Instagram</a>
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">YouTube</a>
+      </div>
+      <div class="footer-copy">
+        © COPA DA APRENDIZAGEM 2026
+      </div>
+</footer>
+</body>
+</html>
